@@ -7,6 +7,7 @@ length = len(word)
 print("\n\nLength of the selected word:", +length)
 ra = int(6)
 answer = ''
+
 while 0 < ra :
     fail = 0
     print("Current guessed word:", end='')
