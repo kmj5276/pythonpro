@@ -1,0 +1,22 @@
+print("Creating a text file with the write<> method.\n")
+print("Reading the newly created file.")
+text_file = open("write.txt", "w")
+text_file.write("Line 1\n")
+text_file.write("This is line 2\n")
+text_file.write("And that would make this the third line\n\n")
+text_file = open("write.txt", "r")
+print(text_file.readline(), end = '')
+print(text_file.readline(), end = '')
+print(text_file.readline())
+
+print("Creating a text file with the writelines<> method.\n")
+print("Reading the newly created file.")
+text_file = open("write.txt", "w")
+lines = ["Line 1\n", "This is line 2\n", "That makes this line3\n\n"]
+text_file.writelines(lines)
+text_file = open("write.txt", "r")
+print(text_file.readline(), end = '')
+print(text_file.readline(), end = '')
+print(text_file.readline())
+
+print("\nPress the enter key to exit.")
