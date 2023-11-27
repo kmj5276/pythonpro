@@ -16,4 +16,4 @@ Critter.status()
 print("\nAccessing the class attribute through an object:", end= " ")
 print(crit1.total)
 
-input("\n\nPress the enter key to exit.")
+print("\n\nPress the enter key to exit.")
