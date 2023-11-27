@@ -27,4 +27,4 @@ crit.set_name = ""
 print("\nAttempting to change my critter's name again.")
 crit.set_name = "Randolph"
 
-input("\n\nPress the enter key to exit.")
+print("\n\nPress the enter key to exit.")
