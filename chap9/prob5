@@ -16,4 +16,4 @@ crit = Critter(name = "Poochie", mood = "happy")
 crit.talk()
 crit.public_method()
 
-input("\n\nPress the enter key to exit.")
+print("\n\nPress the enter key to exit.")
